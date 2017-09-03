@@ -1,0 +1,4 @@
+*$class
+*.py[co]
+*.pyc
+__pycache__/**
