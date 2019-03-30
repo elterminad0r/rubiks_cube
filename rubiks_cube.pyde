@@ -49,7 +49,7 @@ def draw():
 
 def keyPressed():
     global do_stroke
-    ks[       keyCode] = True
+    ks[keyCode] = True
     
     if key in moves:
         cu.transform(moves[key])
