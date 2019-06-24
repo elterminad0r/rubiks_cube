@@ -1,3 +1,5 @@
+# vim: ft=python
+
 from draw_cube import draw_cube
 from cube import Cube, FINALMAPPINGS
 import random as random_
