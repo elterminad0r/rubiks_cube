@@ -52,15 +52,12 @@ def draw():
 def keyPressed():
     global do_stroke
     ks[keyCode] = True
-    
     if key in moves:
         cu.transform(moves[key])
-    
     if keyCode == o_:
         setup()
     elif keyCode == oa:
         random_move()
-        
 
 def keyReleased():
     ks[keyCode] = False
